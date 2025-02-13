@@ -79,61 +79,51 @@
         <mxCell id="EWfXLDPpoF6d2pULPnho-27" value="Duplikasi Database Menggunakan Mode-Mock DC 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="-50" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="EWfXLDPpoF6d2pULPnho-29" target="EWfXLDPpoF6d2pULPnho-30" parent="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EWfXLDPpoF6d2pULPnho-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="EWfXLDPpoF6d2pULPnho-29" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="-20" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-29" value="Update service dan Update Data Master menggunakan Mode-Mock DC 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-30" target="EWfXLDPpoF6d2pULPnho-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-30" value="Scale Up aplikasi menggunakan Mode-mock DC 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-31" target="EWfXLDPpoF6d2pULPnho-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-31" target="EWfXLDPpoF6d2pULPnho-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-31" value="Persiapan DC 2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="-60" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-32" value="Fallback DC 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="-130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-46" target="EWfXLDPpoF6d2pULPnho-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EWfXLDPpoF6d2pULPnho-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-46" value="Jalankan CTM untuk pindah ke DC 2 Tanpa menjalankan script scale" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="1100" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-48" target="EWfXLDPpoF6d2pULPnho-51">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1220" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-48" target="EWfXLDPpoF6d2pULPnho-55">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EWfXLDPpoF6d2pULPnho-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EWfXLDPpoF6d2pULPnho-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="230" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-48" value="Data lates prod" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" width="80" height="80" as="geometry" />
+          <mxGeometry x="1250" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-51" target="EWfXLDPpoF6d2pULPnho-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-51" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Update service dan Update Data Master menggunakan Mode-Mock DC 2&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="1480" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-52" value="Scale Up aplikasi menggunakan Mode-mock DC 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="1630" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EWfXLDPpoF6d2pULPnho-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-55" target="EWfXLDPpoF6d2pULPnho-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EWfXLDPpoF6d2pULPnho-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1910" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-55" value="Duplikasi Database Menggunakan Mode-Mock DC 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="1380" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-59" value="Fallback DC 1 dan DC 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="80" width="120" height="60" as="geometry" />
@@ -212,24 +202,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-94" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="60" y="680" width="80" height="80" as="geometry" />
+          <mxGeometry x="70" y="680" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-96" target="EWfXLDPpoF6d2pULPnho-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-96" value="Scale Down Aplikasi Menggunakan Mode-Mock DC 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-98" target="EWfXLDPpoF6d2pULPnho-99">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="720" as="targetPoint" />
+            <mxPoint x="520" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-98" value="Update service dan Update Data Master ke mode default DC 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-99" value="Jalankan CTM untuk pindah ke DC 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-107" target="EWfXLDPpoF6d2pULPnho-108">
           <mxGeometry relative="1" as="geometry" />
@@ -239,6 +229,15 @@
         </mxCell>
         <mxCell id="EWfXLDPpoF6d2pULPnho-108" value="Scale Up aplikasi menggunakan Mode-mock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EWfXLDPpoF6d2pULPnho-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EWfXLDPpoF6d2pULPnho-110" target="EWfXLDPpoF6d2pULPnho-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EWfXLDPpoF6d2pULPnho-110" value="Persiapan DC 2&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EWfXLDPpoF6d2pULPnho-112" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Update service dan ENV DC 2 menggunakan mode mock DC 2&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
